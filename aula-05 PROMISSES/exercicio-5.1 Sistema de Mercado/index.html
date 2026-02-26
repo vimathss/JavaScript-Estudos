@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Mercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Sistema de Estoque - Mercado</h1>
+    </header>
+
+    <main>
+
+        <!-- Seção de Busca -->
+        <section class="busca-section">
+            <h2>Pesquisar Produto</h2>
+            <input 
+                type="text" 
+                id="input-busca" 
+                placeholder="Digite o nome do produto..."
+            >
+            <button id="btn-buscar">Buscar</button>
+            <button id="btn-mostrar-todos">Mostrar Todos</button>
+        </section>
+
+        <!-- Seção de Resultado -->
+        <section class="resultado-section">
+            <h2>Produtos em Estoque</h2>
+            <div id="lista-produtos" class="lista-produtos">
+                <!-- Produtos serão inseridos aqui via JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <script type="module" src="back-end.js"></script>
+</body>
+</html>

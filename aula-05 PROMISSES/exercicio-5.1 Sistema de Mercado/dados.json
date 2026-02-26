@@ -1,0 +1,94 @@
+  [
+    {
+      "id": 1,
+      "nome": "Arroz 5kg",
+      "categoria": "Alimentos",
+      "preco": 24.90,
+      "estoque": 30,
+      "ativo": true,
+      "codigoBarras": "7891000000011"
+    },
+    {
+      "id": 2,
+      "nome": "Feijão 1kg",
+      "categoria": "Alimentos",
+      "preco": 7.50,
+      "estoque": 50,
+      "ativo": true,
+      "codigoBarras": "7891000000028"
+    },
+    {
+      "id": 3,
+      "nome": "Leite Integral 1L",
+      "categoria": "Bebidas",
+      "preco": 4.99,
+      "estoque": 80,
+      "ativo": true,
+      "codigoBarras": "7891000000035"
+    },
+    {
+      "id": 4,
+      "nome": "Refrigerante 2L",
+      "categoria": "Bebidas",
+      "preco": 8.99,
+      "estoque": 40,
+      "ativo": true,
+      "codigoBarras": "7891000000042"
+    },
+    {
+      "id": 5,
+      "nome": "Detergente 500ml",
+      "categoria": "Limpeza",
+      "preco": 2.75,
+      "estoque": 100,
+      "ativo": true,
+      "codigoBarras": "7891000000059"
+    },
+    {
+      "id": 6,
+      "nome": "Sabão em Pó 1kg",
+      "categoria": "Limpeza",
+      "preco": 12.90,
+      "estoque": 25,
+      "ativo": true,
+      "codigoBarras": "7891000000066"
+    },
+    {
+      "id": 7,
+      "nome": "Shampoo 350ml",
+      "categoria": "Higiene",
+      "preco": 14.50,
+      "estoque": 35,
+      "ativo": true,
+      "codigoBarras": "7891000000073"
+    },
+    {
+      "id": 8,
+      "nome": "Papel Higiênico 12un",
+      "categoria": "Higiene",
+      "preco": 19.99,
+      "estoque": 60,
+      "ativo": true,
+      "codigoBarras": "7891000000080"
+    },
+    {
+      "id": 9,
+      "nome": "Óleo de Soja 900ml",
+      "categoria": "Alimentos",
+      "preco": 6.89,
+      "estoque": 45,
+      "ativo": true,
+      "codigoBarras": "7891000000097"
+    },
+    {
+      "id": 10,
+      "nome": "Café 500g",
+      "categoria": "Alimentos",
+      "preco": 15.90,
+      "estoque": 20,
+      "ativo": true,
+      "codigoBarras": "7891000000103"
+    }
+  ]
+
+
