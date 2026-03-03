@@ -1,14 +1,30 @@
 /* PROMISES
-- É um objeto que representa um valor que pode estar disponível agora, no futuro, ou talvez nunca
-- Utilizado em momentos que alguma tarefa pode demorar para terminar
-- Estrutura Básica:
+Promise = Objeto que representa um valor futuro (assíncrono).
 
-    const minhaPromise = new Promise((resolve, reject) => {
-        // Lógica
-        resolve("Deu Certo")
-        // Ou
-        reject("Deu errado")
-    }); 
+Estados:
+- pending   → aguardando
+- fulfilled → sucesso (resolve)
+- rejected  → erro (reject)
+
+Criando uma Promise:
+    new Promise((resolve, reject) => {
+        if (deuCerto) {
+            resolve(valor); // sucesso
+        } else {
+            reject(erro);   // erro
+        }
+    });
+
+Consumindo uma Promise:
+promise
+    .then(resultado => { })   // executa se resolver
+    .catch(erro => { })       // executa se rejeitar
+    .finally(() => { });      // sempre executa
+
+Encadeamento:
+    .then() sempre retorna outra Promise.
+    Pode encadear para criar fluxo de etapas.eu errado")
+        }); 
 */
 
 console.log("----- Exemplo Básico de Promise -----")
@@ -59,7 +75,7 @@ async function buscarUser() {
         console.log(resultado)
         return resultado.nome
     }
-    catch { 
+    catch {
         console.log("Catch: Erro")
     }
 }
